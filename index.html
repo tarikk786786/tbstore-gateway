@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TB Store &bull; Official TroveBooks Digital Store</title>
+  <meta name="description" content="TB (TroveBooks) - 1,600+ curated technical guides, textbooks, and digital literature. Fast, private, open.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-[#090D14] text-slate-100 min-h-screen flex flex-col selection:bg-emerald-500/30 selection:text-emerald-300">
+  <!-- Top Global Header -->
+  <header class="border-b border-slate-800/80 bg-[#090D14]/95 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 p-0.5 shadow-lg shadow-emerald-500/20">
+          <div class="h-full w-full bg-[#090D14] rounded-[10px] flex items-center justify-center font-black text-emerald-400 text-lg">
+            TB
+          </div>
+        </div>
+        <div>
+          <span class="font-extrabold text-base sm:text-lg tracking-tight text-white">TB <span class="text-emerald-400">Books</span></span>
+          <span class="text-[10px] mono ml-2 px-2 py-0.5 bg-emerald-950/80 text-emerald-300 border border-emerald-800/60 rounded-full font-bold">STORE GATEWAY</span>
+        </div>
+      </div>
+      <div class="flex items-center space-x-2">
+        <a href="#domains" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition-all font-mono">
+          Free Domains (14) &darr;
+        </a>
+        <a href="https://github.com/tarikk786786/Ebook" target="_blank" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 transition-all font-mono font-bold shadow-lg shadow-emerald-500/20">
+          GitHub Repo &rarr;
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Embedded Storefront -->
+  <div class="w-full flex-1 flex flex-col bg-[#05080E]">
+    <div class="bg-slate-900/90 border-b border-slate-800 px-4 py-2 flex items-center justify-between text-xs text-slate-400 mono">
+      <div class="flex items-center space-x-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-slate-200 font-bold">LIVE STOREFRONT</span>
+        <span>&bull;</span>
+        <span>Zero Third-Party Branding in URL</span>
+      </div>
+      <div class="hidden sm:flex items-center space-x-3 text-slate-400 text-[11px]">
+        <span>1,600+ Verified Titles</span>
+        <span>&bull;</span>
+        <span>Encrypted Privacy</span>
+      </div>
+    </div>
+
+    <div class="relative w-full h-[85vh] bg-[#090D14]">
+      <iframe 
+        src="https://anontrove.vercel.app" 
+        class="w-full h-full border-0" 
+        title="TB Bookstore"
+        allow="clipboard-write; fullscreen">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Connected Free Domains Grid Section -->
+  <section id="domains" class="border-t border-slate-800/80 bg-[#090D14] py-16 px-4">
+    <div class="max-w-6xl mx-auto space-y-8">
+      <div class="text-center space-y-2">
+        <div class="inline-block text-xs font-mono font-bold text-emerald-400 uppercase tracking-widest px-3 py-1 bg-emerald-950/60 rounded-full border border-emerald-500/20">
+          Edge Connected Domain Network
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">All Active &amp; Connected Free Domains</h2>
+        <p class="text-slate-400 text-sm max-w-xl mx-auto">
+          Connected across open web registries worldwide &bull; 100% Free Tier Forever.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- 1. GitHub Pages (Live) -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-emerald-400 bg-emerald-950/70 px-2 py-0.5 rounded border border-emerald-800/60">ACTIVE &bull; LIVE</span>
+            <span class="text-xs text-slate-500">GitHub Pages</span>
+          </div>
+          <a href="https://tarikk786786.github.io" class="text-base font-bold text-white hover:text-emerald-300 transition-colors block">tarikk786786.github.io</a>
+          <p class="text-xs text-slate-400 mt-1">Official primary web portal &amp; edge storefront.</p>
+        </div>
+
+        <!-- 2. tbbooks.devs.surf (Claimed & Configured) -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-emerald-400 bg-emerald-950/70 px-2 py-0.5 rounded border border-emerald-800/60">DNS CONFIGURED</span>
+            <span class="text-xs text-slate-500">Devs.Surf API</span>
+          </div>
+          <a href="http://tbbooks.devs.surf" target="_blank" class="text-base font-bold text-white hover:text-emerald-300 transition-colors block">tbbooks.devs.surf</a>
+          <p class="text-xs text-slate-400 mt-1">Direct bookstore domain pointing to Vercel edge.</p>
+        </div>
+
+        <!-- 3. tarik.devs.surf (Claimed & Configured) -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-emerald-400 bg-emerald-950/70 px-2 py-0.5 rounded border border-emerald-800/60">DNS CONFIGURED</span>
+            <span class="text-xs text-slate-500">Devs.Surf API</span>
+          </div>
+          <a href="http://tarik.devs.surf" target="_blank" class="text-base font-bold text-white hover:text-emerald-300 transition-colors block">tarik.devs.surf</a>
+          <p class="text-xs text-slate-400 mt-1">Personal developer identity domain.</p>
+        </div>
+
+        <!-- 4. ebook.devs.surf (Claimed & Configured) -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-emerald-400 bg-emerald-950/70 px-2 py-0.5 rounded border border-emerald-800/60">DNS CONFIGURED</span>
+            <span class="text-xs text-slate-500">Devs.Surf API</span>
+          </div>
+          <a href="http://ebook.devs.surf" target="_blank" class="text-base font-bold text-white hover:text-emerald-300 transition-colors block">ebook.devs.surf</a>
+          <p class="text-xs text-slate-400 mt-1">Direct e-book library &amp; reader gateway.</p>
+        </div>
+
+        <!-- 5. read.devs.surf (Claimed & Configured) -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-emerald-400 bg-emerald-950/70 px-2 py-0.5 rounded border border-emerald-800/60">DNS CONFIGURED</span>
+            <span class="text-xs text-slate-500">Devs.Surf API</span>
+          </div>
+          <a href="http://read.devs.surf" target="_blank" class="text-base font-bold text-white hover:text-emerald-300 transition-colors block">read.devs.surf</a>
+          <p class="text-xs text-slate-400 mt-1">Minimal reader endpoint.</p>
+        </div>
+
+        <!-- 6. tarik.thedev.id (Verified) -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-blue-500/30 hover:border-blue-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-blue-400 bg-blue-950/70 px-2 py-0.5 rounded border border-blue-800/60">VERIFIED ON EDGE</span>
+            <span class="text-xs text-slate-500">thedev.id PR #1390</span>
+          </div>
+          <span class="text-base font-bold text-white block">tarik.thedev.id</span>
+          <p class="text-xs text-slate-400 mt-1">Developer identity domain verified on Vercel Edge.</p>
+        </div>
+
+        <!-- 3. tb.is-a.bot -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-purple-500/30 hover:border-purple-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-purple-400 bg-purple-950/70 px-2 py-0.5 rounded border border-purple-800/60">PASSING CI</span>
+            <span class="text-xs text-slate-500">is-a.bot PR #784</span>
+          </div>
+          <span class="text-base font-bold text-white block">tb.is-a.bot</span>
+          <p class="text-xs text-slate-400 mt-1">Ultra-short 2-letter bot domain matching TB brand.</p>
+        </div>
+
+        <!-- 4. book.is-a.bot -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-purple-500/30 hover:border-purple-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-purple-400 bg-purple-950/70 px-2 py-0.5 rounded border border-purple-800/60">PASSING CI</span>
+            <span class="text-xs text-slate-500">is-a.bot PR #782</span>
+          </div>
+          <span class="text-base font-bold text-white block">book.is-a.bot</span>
+          <p class="text-xs text-slate-400 mt-1">Direct bookstore domain for automated catalog.</p>
+        </div>
+
+        <!-- 5. tarik.is-a.bot -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-purple-500/30 hover:border-purple-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-purple-400 bg-purple-950/70 px-2 py-0.5 rounded border border-purple-800/60">PASSING CI</span>
+            <span class="text-xs text-slate-500">is-a.bot PR #781</span>
+          </div>
+          <span class="text-base font-bold text-white block">tarik.is-a.bot</span>
+          <p class="text-xs text-slate-400 mt-1">Personal bot identity &amp; management endpoint.</p>
+        </div>
+
+        <!-- 6. ebook.is-a.bot -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-purple-500/30 hover:border-purple-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-purple-400 bg-purple-950/70 px-2 py-0.5 rounded border border-purple-800/60">PASSING CI</span>
+            <span class="text-xs text-slate-500">is-a.bot PR #785</span>
+          </div>
+          <span class="text-base font-bold text-white block">ebook.is-a.bot</span>
+          <p class="text-xs text-slate-400 mt-1">E-book reading gateway &amp; delivery engine.</p>
+        </div>
+
+        <!-- 7. tb.is-cod.in -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-cyan-500/30 hover:border-cyan-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-cyan-400 bg-cyan-950/70 px-2 py-0.5 rounded border border-cyan-800/60">QUEUED</span>
+            <span class="text-xs text-slate-500">is-cod.in PR #34</span>
+          </div>
+          <span class="text-base font-bold text-white block">tb.is-cod.in</span>
+          <p class="text-xs text-slate-400 mt-1">Coding literature &amp; documentation hub.</p>
+        </div>
+
+        <!-- 8. book.is-cod.in -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-cyan-500/30 hover:border-cyan-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-cyan-400 bg-cyan-950/70 px-2 py-0.5 rounded border border-cyan-800/60">QUEUED</span>
+            <span class="text-xs text-slate-500">is-cod.in PR #35</span>
+          </div>
+          <span class="text-base font-bold text-white block">book.is-cod.in</span>
+          <p class="text-xs text-slate-400 mt-1">Programming books &amp; reference manuals.</p>
+        </div>
+
+        <!-- 9. tb.is-not.cool -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-amber-500/30 hover:border-amber-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-amber-400 bg-amber-950/70 px-2 py-0.5 rounded border border-amber-800/60">QUEUED</span>
+            <span class="text-xs text-slate-500">is-not.cool PR #286</span>
+          </div>
+          <span class="text-base font-bold text-white block">tb.is-not.cool</span>
+          <p class="text-xs text-slate-400 mt-1">Quirky branded short domain.</p>
+        </div>
+
+        <!-- 10. tb.creepers.sbs -->
+        <div class="p-5 rounded-2xl bg-slate-900/50 border border-teal-500/30 hover:border-teal-500/60 transition-all">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-[11px] mono font-bold text-teal-400 bg-teal-950/70 px-2 py-0.5 rounded border border-teal-800/60">QUEUED</span>
+            <span class="text-xs text-slate-500">creepers.sbs PR #167</span>
+          </div>
+          <span class="text-base font-bold text-white block">tb.creepers.sbs</span>
+          <p class="text-xs text-slate-400 mt-1">Global community CDN domain.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 py-8 text-center text-xs text-slate-500 mono bg-[#090D14]">
+    &copy; 2026 Tarik &bull; TB Books &bull; Fully Decentralized Across Free Web Domains
+  </footer>
+</body>
+</html>
